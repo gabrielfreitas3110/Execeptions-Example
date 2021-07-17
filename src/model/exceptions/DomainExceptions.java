@@ -10,7 +10,7 @@ package model.exceptions;
  * @author Gabriel Augusto
  */
 public class DomainExceptions extends RuntimeException{
-    private static final long serialVersionUID = 1;
+    private static final long serialVersionUID = 1L;
     
     public DomainExceptions(String msg) {
         super(msg);
